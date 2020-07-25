@@ -5,7 +5,7 @@ from credentials import *
 
 # point to chromedriver
 chromedriver_location = "/Users/ivan.chang/code/ultipro_autofill/bin/chromedriver"
-driver = webdriver.Chrome(chromedriver_location)
+driver = webdriver.Chrome(ChromeDriverManager().install())
 
 # go to webpage
 driver.get('https://nw13.ultipro.com/default.aspx')
