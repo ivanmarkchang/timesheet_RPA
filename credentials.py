@@ -1,2 +1,2 @@
-myUsername = "ivan.chang@patientpop.com"
+myUsername = inpput("enter username: ")
 myPassword = input("enter password: ")
